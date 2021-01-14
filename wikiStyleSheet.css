@@ -1,0 +1,121 @@
+/* toolbar*/
+.toolbar-container{
+    background-color:#011E41 ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: inline-flex;
+}
+
+.navbar{
+    display: inline-block;
+    margin: 4vh 0vw 4vh 0vw;
+    
+}
+.navbar a{
+    color:white  ;
+    padding: 0.5vw;
+    font-size: 1.6em;
+}
+
+  
+ .toolbarImg-right{
+    height: 12vh;
+    width: auto;
+    margin: 1vh 0vw 1vh 54vw;
+ }
+ .toolbarImg-left{
+    height: 12vh;
+    width: auto;
+    margin: 1vh 2vw;
+ }
+ /* home page */
+ 
+main{
+    background-color:#f8d735 ;
+    margin-top: 14vh;
+    margin-bottom: 4vh;
+    
+ }
+ #about-Maccabi img{
+    float: left;
+ }
+ #about-Maccabi h1{
+    color:#011E41  ;
+    padding: 1vh 1vw;
+    font-size: 2vw;
+    margin-left: 7vw;
+ }
+ #about-Maccabi p{
+    color:#011E41  ;
+    padding: 1vh 1vw;
+    font-size: 1.2vw;
+    margin-left: 7vw;
+ }
+
+ #tableOfContent{
+    border: 0.1vw solid;
+    padding: 1vw;
+    box-shadow: 5vw 5vh 5vh  #011E41;
+    width: 15vw;
+    height: 50vh;
+    
+
+}
+#tableOfContent h2{
+text-align: center;
+}
+#tableOfContent a{
+    font-size: 1.2vw;
+}
+ /* last section home page*/
+
+#about-the-author{
+    background-color:#011E41 ;
+}
+
+#about-the-author  h2{
+    color:white  ;
+    font-size: 1.6vw;
+    margin-left:  3vw;
+    padding top: 4vh;
+    
+}
+
+#about-the-author  p{
+    color:white  ;
+    font-size: 1.2vw;
+    margin-left:  2vw;
+}
+.contact{
+    display: inline-block;
+}
+.email{
+    margin-left: 2vw;
+}
+.email p {
+    color: white;
+
+   ema
+}
+.email img{
+    width: 7vw;
+}
+.facebook img{ 
+    width: 4vw;
+}
+.facebook a{ 
+    color:white  ;
+}
+.instagram a {
+    color:white  ;
+}
+.instagram img{ 
+    width: 4vw;
+}
+.Github{
+    
+}
+.Github img{ 
+    width: 4vw;
+}
