@@ -17,6 +17,15 @@
     padding: 0.5vw;
     font-size: 1.6em;
 }
+.nav-link-page {
+    border: 0.1vw solid;
+    padding: 1vw;
+    box-shadow: 0vw 0vh 2vh  #f8d735;
+    background-color:#f8d735 ;
+    width: 1vw;
+    height: 1vh;
+    color: #011E41 !important;
+}
 
   
  .toolbarImg-right{
@@ -29,6 +38,22 @@
     width: auto;
     margin: 1vh 2vw;
  }
+ 
+ .navbar a:hover {
+    color: #f8d735;
+  }
+ .navbar a:active {
+    color: #f8d735 ;
+ }
+ .nav-link-page :hover {
+    color: #011E41 !important;
+  }
+ .nav-link-page :active {
+    color: #011E41 !important;
+ }
+ 
+
+
  /* home page */
  
 main{
@@ -52,15 +77,12 @@ main{
     font-size: 1.2vw;
     margin-left: 7vw;
  }
-
  #tableOfContent{
     border: 0.1vw solid;
     padding: 1vw;
     box-shadow: 5vw 5vh 5vh  #011E41;
     width: 15vw;
     height: 50vh;
-    
-
 }
 #tableOfContent h2{
 text-align: center;
@@ -73,49 +95,140 @@ text-align: center;
 #about-the-author{
     background-color:#011E41 ;
 }
-
 #about-the-author  h2{
     color:white  ;
     font-size: 1.6vw;
     margin-left:  3vw;
-    padding top: 4vh;
+    padding-top: 4vh;
     
 }
-
 #about-the-author  p{
     color:white  ;
     font-size: 1.2vw;
     margin-left:  2vw;
+    margin-bottom: 5vh;
 }
-.contact{
-    display: inline-block;
-}
-.email{
+#contact{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
     margin-left: 2vw;
 }
-.email p {
+#contact a{
+    font-size: 1.2vw;
+    text-align: center;
+}
+#contact a:link {
+   color: white;
+}
+#contact a:visited  {
     color: white;
-
-   ema
+}
+#contact a:hover  {
+    color: #f8d735;
+}
+#email{
+    margin-bottom: 1vh;
+}
+#email-p {
+    margin-top: -2vh;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 1vh;
 }
 .email img{
-    width: 7vw;
+    width: 6.5vw;
+    padding-left: 3.5vw;
+    
 }
 .facebook img{ 
     width: 4vw;
 }
-.facebook a{ 
-    color:white  ;
-}
-.instagram a {
-    color:white  ;
-}
 .instagram img{ 
     width: 4vw;
 }
-.Github{
-    
+#GitHub-a{
+  padding-left: 2vw;
 }
-.Github img{ 
-    width: 4vw;
+
+ /* end home page*/
+/* the club page*/
+
+#cont {display: none; }
+.show:focus + .hide {display: inline; }
+.show:focus + .hide + #cont {display: block;}
+
+.show {
+color:  #011E41;
+text-decoration: none
+border: 0.1vw solid;
+    }
+
+.hide {
+    color:  #011E41;
+    text-decoration: none
+    border: 0.1vw solid;
 }
+
+#Club-history{
+    padding-left: 1vw;
+    font-size: 1.3vw;
+}
+#Club-history h1{
+    padding-top: 2vh;
+}
+#Club-history h2{
+    float: left;
+    width: 8vw;
+    color:  #011E41;
+}
+#Club-history p{
+    float: center;
+    width: 70vw;
+    margin-left: 9vw;
+    padding-top: 2vh;
+    color:  #011E41;
+}
+#Stadium-training-facilities{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.stadium-header{
+  
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.Stadium-history{
+    float: center;
+    width: 60vw;
+    margin-left: 10vw;
+    font-size: 1.2vw;
+
+}
+#Stadium img{
+    width: 25vw;
+    float: right;
+    margin-right: 2vw;
+   
+}
+
+#training-facilities{
+    padding-top: 4vh;
+}
+.trainig-header{
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+.training-history{
+    float: center;
+    width: 60vw;
+    margin-left: 10vw;
+    font-size: 1.2vw;
+
+}
+#training-facilities img{
+    width: 25vw;
+    float: right;
+    margin-right: 2vw;
+}              
