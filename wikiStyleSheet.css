@@ -160,14 +160,10 @@ text-align: center;
 
 .show {
 color:  #011E41;
-text-decoration: none
-border: 0.1vw solid;
     }
 
 .hide {
     color:  #011E41;
-    text-decoration: none
-    border: 0.1vw solid;
 }
 
 #Club-history{
@@ -232,3 +228,43 @@ border: 0.1vw solid;
     float: right;
     margin-right: 2vw;
 }              
+
+ /* end first page*/
+/* players page*/
+#goalkeepers{
+    display: flex;
+    justify-content: space-between;
+}
+#squad-hub h1{
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 2.5vw;
+    }
+#squad-hub h2{
+text-align: center;
+font-size: 2vw;
+}
+.players-photo{
+    float: left; 
+    width: 10vw;
+}
+.abouat-players{
+    width: 25vw;
+}
+#Daniel-Peretz ul{
+    float: center;
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+#Daniel-Tenenbaum ul{
+    float: center;
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}#Ben-Musayof ul{
+    float: center;
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
