@@ -82,7 +82,7 @@ main{
     padding: 1vw;
     box-shadow: 5vw 5vh 5vh  #011E41;
     width: 15vw;
-    height: 50vh;
+    height: 60vh;
 }
 #tableOfContent h2{
 text-align: center;
@@ -90,8 +90,6 @@ text-align: center;
 #tableOfContent a{
     font-size: 1.2vw;
 }
- /* last section home page*/
-
 #about-the-author{
     background-color:#011E41 ;
 }
@@ -150,7 +148,17 @@ text-align: center;
 #GitHub-a{
   padding-left: 2vw;
 }
-
+#contact-form{
+    background-color: #f8d735;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+form label{
+    font-size: 1.4vw;
+}
+form input{
+    width: 8vw;
+}
  /* end home page*/
 /* the club page*/
 
@@ -229,11 +237,14 @@ color:  #011E41;
     margin-right: 2vw;
 }              
 
- /* end first page*/
+ /* end the club page*/
 /* players page*/
+
 #goalkeepers{
     display: flex;
     justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 20vh;
 }
 #squad-hub h1{
     padding-top: 10vh;
@@ -251,20 +262,141 @@ font-size: 2vw;
 .abouat-players{
     width: 25vw;
 }
-#Daniel-Peretz ul{
+#goalkeepers ul{
     float: center;
     font-size: 1.6vw;
     margin-left: 10vw;
     margin-top: 5vh;
 }
-#Daniel-Tenenbaum ul{
+#defenders ul{
     float: center;
     font-size: 1.6vw;
     margin-left: 10vw;
     margin-top: 5vh;
-}#Ben-Musayof ul{
-    float: center;
+}
+#defenders-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#defenders-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#defenders-box3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#Luis-Hernandez{
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#midfielders-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#midfielders-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#Uros-Nikolic{
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+/*End of players page*/
+/*start of games&stats page*/
+
+
+table, th, td {
+    margin-left: 2vw;
+    border: 1px solid black;
+    border-collapse: collapse;
     font-size: 1.6vw;
-    margin-left: 10vw;
-    margin-top: 5vh;
+    padding-right: 1vw;
+  }
+  .playoff-up{
+    background-color: rgb(9, 116, 255);
+} 
+ .playoff-down{
+     background-color: red;
+ } 
+ .next-fixtures{
+     margin-left: 10vw;
+     height:50vh;
+     width:80vw;
+ }
+ .next-fixtures-header{
+     padding-left: 5vw;
+ }
+ #Maccabi-stats-home-largest-margin{
+    padding-left: 2vh;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+ }
+ #Maccabi-stats-away-largest-margin{
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2vw;
+  padding-left: 2vh;
+
+ }
+ .stats-margin-header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12vw;
+    padding-left: 12vw;
+    font-size: 1.4vw;
+
+ }
+ #Maccabi-stats{
+     margin-left: 2vw;
+ }
+ #Maccabi-stats h1{
+    text-align: center;
+    margin-top: 20vh;
+}
+#Unforgettable-games-header{
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    width: 50vw;
+}
+#Unforgettable-games{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+}
+.Unforgettable-games-videos{
+    width: 30vw;
+    height: 30vh;
+
 }
