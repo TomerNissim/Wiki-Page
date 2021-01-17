@@ -1,0 +1,402 @@
+/* toolbar*/
+.toolbar-container{
+    background-color:#011E41 ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: inline-flex;
+}
+
+.navbar{
+    display: inline-block;
+    margin: 4vh 0vw 4vh 0vw;
+    
+}
+.navbar a{
+    color:white  ;
+    padding: 0.5vw;
+    font-size: 1.6em;
+}
+.nav-link-page {
+    border: 0.1vw solid;
+    padding: 1vw;
+    box-shadow: 0vw 0vh 2vh  #f8d735;
+    background-color:#f8d735 ;
+    width: 1vw;
+    height: 1vh;
+    color: #011E41 !important;
+}
+
+  
+ .toolbarImg-right{
+    height: 12vh;
+    width: auto;
+    margin: 1vh 0vw 1vh 54vw;
+ }
+ .toolbarImg-left{
+    height: 12vh;
+    width: auto;
+    margin: 1vh 2vw;
+ }
+ 
+ .navbar a:hover {
+    color: #f8d735;
+  }
+ .navbar a:active {
+    color: #f8d735 ;
+ }
+ .nav-link-page :hover {
+    color: #011E41 !important;
+  }
+ .nav-link-page :active {
+    color: #011E41 !important;
+ }
+ 
+
+
+ /* home page */
+ 
+main{
+    background-color:#f8d735 ;
+    margin-top: 14vh;
+    margin-bottom: 4vh;
+    
+ }
+ #about-Maccabi img{
+    float: left;
+ }
+ #about-Maccabi h1{
+    color:#011E41  ;
+    padding: 1vh 1vw;
+    font-size: 2vw;
+    margin-left: 7vw;
+ }
+ #about-Maccabi p{
+    color:#011E41  ;
+    padding: 1vh 1vw;
+    font-size: 1.2vw;
+    margin-left: 7vw;
+ }
+ #tableOfContent{
+    border: 0.1vw solid;
+    padding: 1vw;
+    box-shadow: 5vw 5vh 5vh  #011E41;
+    width: 15vw;
+    height: 60vh;
+}
+#tableOfContent h2{
+text-align: center;
+}
+#tableOfContent a{
+    font-size: 1.2vw;
+}
+#about-the-author{
+    background-color:#011E41 ;
+}
+#about-the-author  h2{
+    color:white  ;
+    font-size: 1.6vw;
+    margin-left:  3vw;
+    padding-top: 4vh;
+    
+}
+#about-the-author  p{
+    color:white  ;
+    font-size: 1.2vw;
+    margin-left:  2vw;
+    margin-bottom: 5vh;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin-left: 2vw;
+}
+#contact a{
+    font-size: 1.2vw;
+    text-align: center;
+}
+#contact a:link {
+   color: white;
+}
+#contact a:visited  {
+    color: white;
+}
+#contact a:hover  {
+    color: #f8d735;
+}
+#email{
+    margin-bottom: 1vh;
+}
+#email-p {
+    margin-top: -2vh;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 1vh;
+}
+.email img{
+    width: 6.5vw;
+    padding-left: 3.5vw;
+    
+}
+.facebook img{ 
+    width: 4vw;
+}
+.instagram img{ 
+    width: 4vw;
+}
+#GitHub-a{
+  padding-left: 2vw;
+}
+#contact-form{
+    background-color: #f8d735;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+form label{
+    font-size: 1.4vw;
+}
+form input{
+    width: 8vw;
+}
+ /* end home page*/
+/* the club page*/
+
+#cont {display: none; }
+.show:focus + .hide {display: inline; }
+.show:focus + .hide + #cont {display: block;}
+
+.show {
+color:  #011E41;
+    }
+
+.hide {
+    color:  #011E41;
+}
+
+#Club-history{
+    padding-left: 1vw;
+    font-size: 1.3vw;
+}
+#Club-history h1{
+    padding-top: 2vh;
+}
+#Club-history h2{
+    float: left;
+    width: 8vw;
+    color:  #011E41;
+}
+#Club-history p{
+    float: center;
+    width: 70vw;
+    margin-left: 9vw;
+    padding-top: 2vh;
+    color:  #011E41;
+}
+#Stadium-training-facilities{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.stadium-header{
+  
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.Stadium-history{
+    float: center;
+    width: 60vw;
+    margin-left: 10vw;
+    font-size: 1.2vw;
+
+}
+#Stadium img{
+    width: 25vw;
+    float: right;
+    margin-right: 2vw;
+   
+}
+
+#training-facilities{
+    padding-top: 4vh;
+}
+.trainig-header{
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+.training-history{
+    float: center;
+    width: 60vw;
+    margin-left: 10vw;
+    font-size: 1.2vw;
+
+}
+#training-facilities img{
+    width: 25vw;
+    float: right;
+    margin-right: 2vw;
+}              
+
+ /* end the club page*/
+/* players page*/
+
+#goalkeepers{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 20vh;
+}
+#squad-hub h1{
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 2.5vw;
+    }
+#squad-hub h2{
+text-align: center;
+font-size: 2vw;
+}
+.players-photo{
+    float: left; 
+    width: 10vw;
+}
+.abouat-players{
+    width: 25vw;
+}
+#goalkeepers ul{
+    float: center;
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+#defenders ul{
+    float: center;
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+#defenders-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#defenders-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#defenders-box3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#Luis-Hernandez{
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#midfielders-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#midfielders-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#Uros-Nikolic{
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+#forwards-box3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+}
+/*End of players page*/
+/*start of games&stats page*/
+
+
+table, th, td {
+    margin-left: 2vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.6vw;
+    padding-right: 1vw;
+  }
+  .playoff-up{
+    background-color: rgb(9, 116, 255);
+} 
+ .playoff-down{
+     background-color: red;
+ } 
+ .next-fixtures{
+     margin-left: 10vw;
+     height:50vh;
+     width:80vw;
+ }
+ .next-fixtures-header{
+     padding-left: 5vw;
+ }
+ #Maccabi-stats-home-largest-margin{
+    padding-left: 2vh;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+ }
+ #Maccabi-stats-away-largest-margin{
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2vw;
+  padding-left: 2vh;
+
+ }
+ .stats-margin-header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12vw;
+    padding-left: 12vw;
+    font-size: 1.4vw;
+
+ }
+ #Maccabi-stats{
+     margin-left: 2vw;
+ }
+ #Maccabi-stats h1{
+    text-align: center;
+    margin-top: 20vh;
+}
+#Unforgettable-games-header{
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    width: 50vw;
+}
+#Unforgettable-games{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+}
+.Unforgettable-games-videos{
+    width: 30vw;
+    height: 30vh;
+
+}
